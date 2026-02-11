@@ -1,8 +1,8 @@
 {
-  "name": "",
+  "name": "device-catalogue",
   "version": "1.0.0",
-  "description": "",
-  "main": "dist/src/functions/*.js",
+  "description": "Azure Functions project for Device Catalogue",
+  "main": "dist/src/functions/index.js",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
