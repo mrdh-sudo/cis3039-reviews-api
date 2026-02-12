@@ -4,6 +4,7 @@
   "description": "Azure Functions project for Device Catalogue",
   "main": "dist/src/functions/index.js",
   "scripts": {
+    "seed": "ts-node src/seed/seed.ts",
     "build": "tsc",
     "watch": "tsc -w",
     "clean": "rimraf dist",
@@ -20,6 +21,7 @@
     "@types/node": "18.x",
     "azure-functions-core-tools": "^4.x",
     "rimraf": "^5.0.0",
+    "ts-node": "^10.9.2",
     "typescript": "^4.0.0"
   }
 }
