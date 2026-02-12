@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "category": "phone",
+    "brand": "Apple",
+    "model": "iPhone 14"
+  },
+  {
+    "id": 2,
+    "category": "phone",
+    "brand": "Samsung",
+    "model": "Galaxy S22"
+  },
+  {
+    "id": 3,
+    "category": "laptop",
+    "brand": "Dell",
+    "model": "XPS 13"
+  },
+  {
+    "id": 4,
+    "category": "laptop",
+    "brand": "Apple",
+    "model": "MacBook Air M2"
+  }
+]
