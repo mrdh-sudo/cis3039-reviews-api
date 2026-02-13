@@ -5,9 +5,9 @@ import { Device } from "../Domain/CreateDevice";
 async function getDeviceRepo() {
   return new CosmosDeviceRepo({
     endpoint: process.env.COSMOS_ENDPOINT!,
-    databaseId: process.env.COSMOS_DATABASE_ID!,
-    containerId: process.env.COSMOS_CONTAINER_ID!,
-    key: process.env.COSMOS_KEY
+    databaseId: process.env.COSMOS_DATABASE_ID!,   // devicecatalogue-db
+    containerId: process.env.COSMOS_CONTAINER_ID!, // devices
+    key: process.env.COSMOS_KEY!
   });
 }
 

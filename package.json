@@ -2,7 +2,7 @@
   "name": "device-catalogue",
   "version": "1.0.0",
   "description": "Azure Functions project for Device Catalogue",
-  "main": "dist/src/functions/index.js",
+  "main": "dist/functions/index.js",
   "scripts": {
     "seed": "ts-node src/seed/seed.ts",
     "build": "tsc",
